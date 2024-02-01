@@ -17,10 +17,10 @@
                     <p class="event">Event<span class="free">Free</span></p>
                 </div>
                 <input type="checkbox" id="menuicon" hidden>
-                <label for="menuicon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <label for="menuicon" id="menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </label>
                 <div class="nav_items d-flex align_items gap-20 sm-view">
                     <a href="/" class="item">Home</a>
@@ -54,7 +54,7 @@
     <section class="first_page mt-66">
         <div class="container">
             <div class="row">
-                <div class="col-3 col-md-12">
+                <div class="col-3 col-md-12 prop">
                     <img src="./assets/images/first_cont_img.png" alt="a boy" class="w-h-100">
                 </div>
                 <div class="col-9 col-md-12">
@@ -118,11 +118,13 @@
 
 
     <section class="third_page">
-        <div class="container d-flex fd-col box-shad">
-            <div class="top d-flex item_flex fd-col mt-30">
+        <div class="top d-flex item_flex fd-col mt-30">
+            <div class="container w-100">
                 <div class="line"></div>
                 <p class="new">New Events</p>
             </div>
+        </div>
+        <div class="container d-flex fd-col box-shad">
             <div class="row">
                 <div class="col-6 col-md col-12 col-sm-12">
                     <div class="username d-flex align_items gap-10">
@@ -870,7 +872,7 @@
 
     <section class="fifth_page bg-black">
         <div class="container">
-            <div class="row">
+            <div class="row pb-pt">
                 <div class="col-3 col-lg-12">
                     <div class="heading d-flex align_items">
                         <img src="./assets/images/globe_img.png" alt="earth">
@@ -889,7 +891,7 @@
                         <img src="./assets/images/twitter.svg" alt="twit">
                     </div>
                 </div>
-                <div class="col-9 col-lg-12">
+                <div class="col-9 col-lg-12 align_prop">
                     <div class="row jc-flex-end">
                         <div class="col-3 d-flex flex_start fd-col col-sm">
                             <a href="/" class="main">Home</a>
@@ -921,7 +923,11 @@
                                 <div class="col-4">
                                     <img src="./assets/images/footer_img_5.png" alt="" class="img_fluid">
                                 </div>
-                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="green_box">
+                                        <p class="show">Show More</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
