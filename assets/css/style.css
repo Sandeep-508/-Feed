@@ -616,6 +616,10 @@ input {
     align-items: flex-start;
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .main {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
