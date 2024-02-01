@@ -605,6 +605,11 @@ input {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
 }
 
 .flex_start {
@@ -636,6 +641,10 @@ input {
 .img_fluid {
     max-width: 100%;
     height: auto;
+}
+
+.fs-30 {
+    font-size: 30px;
 }
 
 .green_box {
