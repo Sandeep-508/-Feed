@@ -619,6 +619,7 @@ input {
     letter-spacing: 0em;
     text-align: left;
     color: white;
+    padding-bottom: 5px;
 }
 
 .items {
@@ -629,6 +630,7 @@ input {
     letter-spacing: 0em;
     text-align: left;
     color: white;
+    padding-bottom: 5px;
 }
 
 .img_fluid {
