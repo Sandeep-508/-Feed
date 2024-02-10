@@ -10,5 +10,6 @@ window.addEventListener('scroll', function () {
     } else {
         navbar.classList.remove('scrolled');
         links.forEach(e => e.style.color = "black")
+        span.forEach(e => e.style.backgroundColor = "black")
     }
 });
